@@ -3,6 +3,7 @@ import { WeatherContextProvider } from "./context/WeatherContextProvider";
 import WeatherDisplay from "./context/WeatherDisplay";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
+import MapComponent from "./components/Map";
 
 const App: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const App: React.FC = () => {
         <WeatherDisplay />
         <Login />
         <Signup />
+        <MapComponent />
       </div>
     </WeatherContextProvider>
 
