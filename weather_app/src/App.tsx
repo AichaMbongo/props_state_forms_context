@@ -1,6 +1,8 @@
 import React from "react";
 import { WeatherContextProvider } from "./context/WeatherContextProvider";
 import WeatherDisplay from "./context/WeatherDisplay";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
 
 const App: React.FC = () => {
   return (
@@ -9,8 +11,12 @@ const App: React.FC = () => {
       <div>
         {/* Other components */}
         <WeatherDisplay />
+        <Login />
+        <Signup />
       </div>
     </WeatherContextProvider>
+
+    
   );
 };
 
